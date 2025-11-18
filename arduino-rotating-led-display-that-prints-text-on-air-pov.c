@@ -1,3 +1,11 @@
+/*
+ * Course: Arduino Rotating Led Display That Prints Text On Air Pov
+ * Platform: Arduino
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include <stdio.h> // Include I/O for POV text frames
 #include <string.h> // Include string utilities for text handling
 
@@ -11,6 +19,7 @@ void render_column(char c) { // Begin render function
 } // End function
 
 // Entry to iterate over text and render columns
+// Main routine: orchestrates the arduino rotating led display that prints text on air pov scenario
 int main(void) { // Begin main function
   printf("Arduino Rotating LED Display That Prints Text on Air POV\n"); // Title
   columns = (int)strlen(text); // Update columns based on text length
